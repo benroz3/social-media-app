@@ -1,0 +1,93 @@
+.rightbar {
+  flex: 3.5;
+
+  .rightbarContainer {
+    padding: 20px 20px 0 0;
+
+    .birthday {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+
+      span {
+        font-weight: 300;
+        font-size: 15px;
+      }
+    }
+
+    .ad {
+      width: 100%;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+
+    h4 {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .info {
+      margin: 0 30px 0 10px;
+
+      .infoItem {
+        margin-bottom: 10px;
+
+        .key {
+          font-weight: 500;
+          margin-right: 15px;
+          color: #555;
+        }
+
+        .value {
+          font-weight: 300;
+        }
+      }
+    }
+
+    .friends {
+      font-size: 18px;
+      font-weight: 500;
+      margin: 20px 0 10px 10px;
+    }
+
+    .followings {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .follow {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        img {
+          width: 120px;
+          height: 120px;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+
+        span {
+        }
+      }
+    }
+  }
+}

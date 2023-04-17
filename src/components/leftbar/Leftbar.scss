@@ -1,0 +1,53 @@
+.leftbar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+
+  .leftbarContainer {
+    padding: 20px;
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    button {
+      width: 150px;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    hr {
+      margin: 20px 0px;
+    }
+
+    .friendsList {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        img {
+          height: 32px;
+          width: 32px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 10px;
+        }
+
+        span {
+        }
+      }
+    }
+  }
+}
